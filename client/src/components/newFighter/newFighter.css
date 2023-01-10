@@ -1,0 +1,10 @@
+#new-fighter {
+    width: 50%;
+    margin: 1rem auto;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+#new-fighter > * {
+    margin: 1rem;
+}

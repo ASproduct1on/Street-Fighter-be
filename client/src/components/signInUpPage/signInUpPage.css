@@ -1,0 +1,29 @@
+#sign-in-up {
+    width: 100%;    
+    height: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-wrapper {
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.header > div {
+    opacity: 0.5;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.header .active {
+    opacity: 1;
+}

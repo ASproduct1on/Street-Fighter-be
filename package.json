@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-hometask",
+  "version": "0.0.1",
+  "description": "Hometask for NodeJS and express lecture",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "sh -c 'env REPO_URL=$0 npx mocha tests/**/*.spec.js -R JSON --exit'",
+    "test-local": "./node_modules/.bin/mocha tests/**/*.spec.js --exit -R JSON",
+    "start": "node index.js",
+    "build-front": "cd client | ls",
+    "feedback": "node ./feedback/index.js",
+    "generate": "npm run test-local | npm run feedback"
+  },
+  "keywords": [
+    "NodeJS",
+    "expressJS"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "lodash.isempty": "4.4.0",
+    "lowdb": "1.0.0",
+    "request": "2.88.2",
+    "uuid": "9.0.0"
+  },
+  "engines": {
+    "node": "16.x.x",
+    "npm": "8.x.x"
+  }
+}

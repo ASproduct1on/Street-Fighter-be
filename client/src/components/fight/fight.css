@@ -1,0 +1,22 @@
+#wrapper {
+    margin-top: 2rem;
+}
+
+#figh-wrapper {
+    width: 70%;
+    margin: 2rem auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+}
+
+#figh-wrapper > *:first-child, #figh-wrapper > *:last-child {
+    flex: 1;
+}
+
+.btn-wrapper {
+    margin: 0 1rem;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1rem;
+    justify-content: center;
+}
