@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "password": "11",
+      "id": "6b8b37b1-ef30-4b70-a936-bd03bc24cb8a",
+      "createdAt": "2023-01-24T04:28:33.317Z"
+    },
+    {
+      "password": "11",
+      "id": "b5808e33-b352-40b0-aec2-5858395b2ca4",
+      "createdAt": "2023-01-24T04:31:09.399Z"
+    },
+    {
+      "email": "@gmail.com",
+      "password": "1155",
+      "firstName": "Andrii",
+      "lastName": "Skeha",
+      "phoneNumber": "+380506921091",
+      "id": "2b385816-c717-4ad7-8b6a-b9432fc80b10",
+      "createdAt": "2023-01-24T04:47:26.002Z"
+    },
+    {
+      "email": "ddf@gmail.com",
+      "password": "55555",
+      "firstName": "Andrii",
+      "lastName": "Skeha",
+      "phoneNumber": "+380506921093",
+      "id": "35860a68-d4ff-4e58-ae3b-15cfa513d5d6",
+      "createdAt": "2023-01-24T05:51:38.564Z"
+    }
+  ],
+  "fighters": [
+    {
+      "name": "ggwp4",
+      "power": 5,
+      "defense": 3,
+      "health": 100,
+      "id": "725a0540-efff-4a42-a458-b13ed49dcd7a",
+      "createdAt": "2023-01-24T05:54:54.548Z"
+    },
+    {
+      "name": "gg",
+      "power": 5,
+      "defense": 5,
+      "health": 100,
+      "id": "09dfe4ba-eaad-4153-8645-637e9428ca0f",
+      "createdAt": "2023-01-24T05:55:06.029Z"
+    }
+  ],
+  "fights": []
+}
